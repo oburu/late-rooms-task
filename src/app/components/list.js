@@ -57,7 +57,6 @@ class List extends Component {
     const hotels = items.map((hotel, i) => {
       return <ListItem key={i} hotel={hotel}/>
     });
-
     return(
       <div>
         <div className="controls">

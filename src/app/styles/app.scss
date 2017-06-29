@@ -79,7 +79,7 @@ body{
     display: block;
     width: 50%;
     height: 34px;
-    padding: 6px 15px;
+    padding: 6px 15px 6px 35px;
     font-size: 14px;
     color: #787878;
     background-color: #fff;
@@ -88,6 +88,10 @@ body{
     border-radius: 4px;
     box-shadow: none;
     float: right;
+    background-image: url('/app/styles/img/magnifying-glass.svg');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 7px 12px;
   }
   .order-stars{
     float: left;

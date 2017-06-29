@@ -1,4 +1,4 @@
-var expect = require('expect');
+import expect from 'expect';
 
 describe('App', () => {
   it('Should properly run tests', ()=>{
