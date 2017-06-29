@@ -43,7 +43,7 @@ class List extends Component {
     //set styles for the buttons
     let arrowUpClassNames = this.state.orderUp ? "arrow arrow-up-on":"arrow arrow-up-off";
     let arrowDownClassNames = this.state.orderDown ? "arrow arrow-down-on":"arrow arrow-down-off";
-    
+
     //control the filter bar
     let items = this.state.hotels;
     if(this.state.filter){
