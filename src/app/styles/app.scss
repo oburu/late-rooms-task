@@ -1,0 +1,137 @@
+$background-color:#9b59b6;
+
+body,html{
+  height:100%;
+  width:100%;
+  margin:0;
+}
+#app{
+  height:100%;
+  width:100%;
+}
+body{
+  font-family: Arial;
+  color:white;
+  font-family: 'Lato', sans-serif;
+}
+.logo{
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 10%;
+  padding-bottom: 2%;
+  svg {
+    fill: #fff;
+  }
+}
+.main-page{
+  background-image: url('/app/styles/img/late_rooms_bkg.jpg');
+  background-size: cover;
+  height:100%;
+  width:100%;
+  .list{
+    width:60%;
+    background-color: rgba(255,255,255,.8);
+    padding:1rem;
+    margin: 0 auto;
+    border-radius: 4px;
+    color:black;
+    height: 500px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+  }
+}
+.hotel{
+  background-color: white;
+  padding:15px;
+  margin-bottom: 5px;
+  .hotel-stars{
+    width: 12%;
+    float: left;
+    padding-top:7px;
+    .star-icon{
+      background-image: url('/app/styles/img/star.svg');
+      background-size: contain;
+      height:20px;
+      width:20px;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+  }
+  .hotel-info{
+    width:80%;
+    h4{
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin:0;
+    }
+    p{
+      margin:0;
+      text-transform: capitalize;
+      font-size: 12px;
+      letter-spacing: 2px;
+      line-height: 24px;
+      color: #5493d8;
+    }
+  }
+}
+.controls{
+  margin: 10px auto;
+  width:60%;
+  input{
+    display: block;
+    width: 50%;
+    height: 34px;
+    padding: 6px 15px;
+    font-size: 14px;
+    color: #787878;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    box-shadow: none;
+    float: right;
+  }
+  .order-stars{
+    float: left;
+    p{
+      margin:10px 0 0 0;
+      display: inline;
+    }
+    .arrow{
+      background-size: contain;
+      height:20px;
+      width:20px;
+      display: inline-block;
+      margin-left: 10px;
+      margin-top: 20px;
+      &.arrow-up-off{
+        background-image: url('/app/styles/img/sort-up-off.svg');
+      }
+      &.arrow-down-off{
+        background-image: url('/app/styles/img/sort-down-on.svg');
+      }
+    }
+  }
+  &:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media (max-width: 600px) {
+  .controls{
+    width:95%;
+  }
+  .main-page{
+    .list{
+      width:95%;
+      height:375px;
+    }
+  }
+  .hotel{
+    .hotel-stars{
+      width: 20%;
+    }
+  }
+}
