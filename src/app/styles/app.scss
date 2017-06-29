@@ -1,5 +1,3 @@
-$background-color:#9b59b6;
-
 body,html{
   height:100%;
   width:100%;
@@ -67,7 +65,7 @@ body{
     p{
       margin:0;
       text-transform: capitalize;
-      font-size: 12px;
+      font-size: 13px;
       letter-spacing: 2px;
       line-height: 24px;
       color: #5493d8;
@@ -108,6 +106,12 @@ body{
         background-image: url('/app/styles/img/sort-up-off.svg');
       }
       &.arrow-down-off{
+        background-image: url('/app/styles/img/sort-down-off.svg');
+      }
+      &.arrow-up-on{
+        background-image: url('/app/styles/img/sort-up-on.svg');
+      }
+      &.arrow-down-on{
         background-image: url('/app/styles/img/sort-down-on.svg');
       }
     }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ListItem = (props) => {
   let {name, stars, facilities} = props.hotel;
-  const renderFacilities = facilities.map((item, i) => (i > 0 ? ", " : "") + item);
+  const renderFacilities = facilities.map((item, i) => (i > 0 ? ", " : "") + item);// add the coma
   return (
     <div className="hotel">
       <div className="hotel-stars">

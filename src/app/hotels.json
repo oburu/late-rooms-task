@@ -1,31 +1,29 @@
-{
-  "hotels" : [{
-      "name": "hotelone",
-      "stars": "5",
-      "facilities": ["car park", "pool"]
-    },{
-      "name": "hoteltwo",
-      "stars": "3",
-      "facilities": ["car park", "gym"]
-    },{
-      "name": "hotelthree",
-      "stars": "2",
-      "facilities": ["car park", "gym", "spa"]
-    },{
-      "name": "hotelfour",
-      "stars": "2",
-      "facilities": ["restaurant", "gym"]
-    },{
-      "name": "hotelfive",
-      "stars": "3",
-      "facilities": ["pool", "spa"]
-    },{
-      "name": "hotelsix",
-      "stars": "3",
-      "facilities": ["spa", "gym", "pool"]
-    },{
-      "name": "hotelseven",
-      "stars": "3",
-      "facilities": ["pool", "spa", "restaurant"]
-    }]
-}
+[{
+  "name": "hotelone",
+  "stars": "1",
+  "facilities": ["car park", "pool"]
+},{
+  "name": "hoteltwo",
+  "stars": "3",
+  "facilities": ["car park", "gym"]
+},{
+  "name": "hotelthree",
+  "stars": "2",
+  "facilities": ["car park", "gym", "spa"]
+},{
+  "name": "hotelfour",
+  "stars": "2",
+  "facilities": ["restaurant", "gym"]
+},{
+  "name": "hotelfive",
+  "stars": "3",
+  "facilities": ["pool", "spa"]
+},{
+  "name": "hotelsix",
+  "stars": "5",
+  "facilities": ["spa", "gym", "pool"]
+},{
+  "name": "hotelseven",
+  "stars": "3",
+  "facilities": ["pool", "spa", "restaurant"]
+}]
